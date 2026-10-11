@@ -41,14 +41,13 @@ Many beginners never make an open-source contribution because the first step is 
 
 **FirstPatch** removes that uncertainty. It searches GitHub for beginner-friendly repositories and issues that match your skills, checks live facts about each issue (is it assigned, does a pull request already exist, is it recently active), and gives you a numbered roadmap from forking the repository to opening your pull request.
 
-> **Design principle:** the application *computes* facts from the live GitHub API. Gemma 4 only *explains* them in simple language. The AI is never the source of truth, and anything it invents is filtered out.
 
 Built for **MLH Hacktoberfest Hack Day** (Best Use of Gemma 4, Best Open-Source AI Project).
 
 ## Key Features
 
 ### Analyze a repository
-- Paste a repository URL (`https://github.com/owner/repo`) or `owner/repo`.
+- Repository URL (https://github.com/DevSethiya/FirstPatch).
 - Select your skills from clickable blocks; selected skills glow.
 - The top 3-4 issues are shown side by side with a Fit Score and a status chip: **Available**, **Possibly claimed**.
 - Choose one task and the whole roadmap follows your choice.
@@ -255,13 +254,5 @@ Contributions are welcome.
 ## License
 
 Released under the [MIT License](LICENSE).
-
-## Screenshots
-
-| Analyze | Discover |
-|---|---|
-| _Add screenshot_ | _Add screenshot_ |
-
----
 
 <div align="center">Made for first-time contributors. Happy Hacktoberfest!</div>
